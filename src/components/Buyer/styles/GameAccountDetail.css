@@ -1,0 +1,83 @@
+.game-account-detail {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.game-account-detail:hover {
+    transform: scale(1.02);
+}
+
+.account-username {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.account-description {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.account-price {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.screenshots {
+    margin-top: 20px;
+    overflow-x: auto; 
+    white-space: nowrap;
+    padding: 10px 0; 
+    scroll-behavior: smooth;
+}
+
+.screenshot-image {
+    width: 100%; 
+    max-width: 150px; 
+    height: auto;
+    border-radius: 8px;
+    margin: 0 5px; 
+    object-fit: cover; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.screenshot-image:hover {
+    transform: scale(1.05);
+}
+
+.screenshots::-webkit-scrollbar {
+    display: none; 
+}
+.update-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.update-link:hover {
+    background-color: #0056b3;
+}
